@@ -4,7 +4,7 @@ pipeline
 
     stages
     {
-        stages('git')
+        stage('git')
         {
             git 'https://github.com/chandanchandu1/demo-counter-app-1.git'
         }
